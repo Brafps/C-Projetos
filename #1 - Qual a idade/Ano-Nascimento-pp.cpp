@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<stdlib.h>
+
 int main(){
     int idade;
     int anoAtual;
@@ -9,5 +11,6 @@ int main(){
     scanf("%d",&anoAtual);
     anoNascimento=anoAtual-idade;
     printf("Oi, voce nasceu em %d\n",anoNascimento);
+    system("pause");
     return 0;
 }
