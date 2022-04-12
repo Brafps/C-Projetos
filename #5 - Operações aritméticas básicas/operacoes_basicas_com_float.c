@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main(){
     float numero1, numero2;
     float soma, subtracao, multiplicacao, divisao;
@@ -21,6 +22,6 @@ int main(){
     printf("Subtracao entre o numero 1 e o numero 2: %.2f\n", subtracao);
     printf("Multiplicacao: %.2f\n", multiplicacao);
     printf("Divisao entre o numero 1 e o numero 2: %.2f\n", divisao);
-
+    system("Pause");
     return 0;
 }

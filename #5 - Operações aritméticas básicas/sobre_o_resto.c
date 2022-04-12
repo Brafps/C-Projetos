@@ -4,6 +4,6 @@ int main(){
     printf("Digite o numero: ");
     scanf("%d", &numero);
     resto=numero%2;
-    printf("Resto da divisao: %d\n", resto);
+    printf("Resto da divisao por 2 é: %d\n", resto);
     return 0;
 }
